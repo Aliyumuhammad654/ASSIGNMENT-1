@@ -1,0 +1,27 @@
+ANSWER for Q1
+numbers=[]
+for i in range(1000, 2200):
+    if (i%7==0) and (i%5>0):
+        numbers.append(str(i))
+print (','.join(numbers))
+
+
+ANSWER for Q2
+fname= input("Enter first name")
+lname= input("Enter last name")
+print= (lname + " "+ fname)
+
+ANSWER for Q3
+user=[2,3,4,5,6,7,8,9,10,11,12]
+
+    Min= min(user)
+    s=sum(user)
+    Max=max(user)
+    avg=s/len(user)
+    
+    print("The min number:",Min)
+    print("The sum of the numbers:",s)
+    print("The max number:",Max)
+    print("The average :", avg)
+    
+    
